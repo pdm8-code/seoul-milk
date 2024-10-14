@@ -236,8 +236,8 @@
 .site-map {
   position: fixed;
   top: 0;
-  right: -450px;
-  width: 450px;
+  right: -340px;
+  width: 340px;
   height: 100%;
   background: #fff;
   z-index: 1000;
