@@ -1,0 +1,575 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<!-- 구글폰트 Noto Sans Kr -->
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100..900&display=swap" rel="stylesheet">
+	<!-- 제이쿼리 cdn -->
+	<script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+	<!-- 슬라이드 스와이퍼 script -->
+	<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+	<!-- index.js -->
+	<script src="assets/js/index.js"></script>
+	<!-- 슬라이드 스와이퍼 css -->
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
+	<!-- css -->
+	<link rel="stylesheet" href="assets/css/reset.css">
+	<link rel="stylesheet" href="assets/css/style.css">
+	<link rel="stylesheet" href="assets/css/responsive.css">
+	<title>서울우유</title>
+</head>
+<body>
+	<!-- 탑메뉴 -->
+	<div class="top-menu">
+		<div class="container">
+			<a href="#none">
+				<span class="career">채용정보</span>
+			</a>
+			<a href="#none">
+				<span class="customer">고객지원</span>
+			</a>
+		</div>
+	</div> 
+	<!-- 헤더 -->
+	<header class="header">
+		<div class="container">
+			<a href="index.html" class="main-logo"></a>
+			<ul class="nav">
+				<li class="company">
+					<a href="#none">회사소개</a>
+					<ul class="sub-menu">
+						<li><a href="#none">조합현황</a></li>
+						<li><a href="#none">조합정보</a></li>
+						<li><a href="#none">중앙연구소</a></li>
+						<li><a href="#none">오시는길</a></li>
+					</ul>
+				</li>
+				<li class="product">
+					<a href="#none">제품소개</a>
+					<ul class="sub-menu ">
+						<li><a href="#none">우유</a></li>
+						<li><a href="#none">발효유</a></li>
+						<li><a href="#none">음료</a></li>
+						<li><a href="#none">커피</a></li>
+						<li><a href="#none">치즈</a></li>
+						<li><a href="#none">크림·버터</a></li>
+						<li><a href="#none">분유·연유</a></li>
+						<li><a href="#none">디저트</a></li>
+						<li><a href="#none">반려동물제품</a></li>
+						<li><a href="#none">수입제품</a></li>
+					</ul>
+				</li>
+				<li class="management">
+					<a href="#none">지속가능경영</a>
+					<ul class="sub-menu ">
+						<li><a href="#none">안전 및 품질 경영</a></li>
+						<li><a href="#none">ESG 경영</a></li>
+					</ul>
+				</li>
+				<li class="promotion">
+					<a href="#none">홍보</a>
+					<ul class="sub-menu ">
+						<li><a href="#none">인플루언서</a></li>
+						<li><a href="#none">광고자료</a></li>
+						<li><a href="#none">공식SNS</a></li>
+						<li><a href="#none">공장견학</a></li>
+					</ul>
+				</li>
+				<li class="event">
+					<a href="#none">이벤트</a>
+					<ul class="sub-menu ">
+						<li><a href="#none">진행 이벤트</a></li>
+						<li><a href="#none">당첨자 발표</a></li>
+					</ul>
+				</li>
+			</ul>
+			<div class="btn-menu">
+				<button type="button" class="langs">
+					<span>KR</span>
+					<div class="langs-menu">
+						<a href="#none" class="kr">KR</a>
+						<a href="#none" class="en">EN</a>
+					</div>
+				</button>
+				<button type="button" class="menu-bar"></button>
+			</div>
+		</div>
+	</header>
+	<!-- 사이트맵-->
+	<div class="site-map">
+		<div class="sec1">
+			<div class="info-btn">
+				<a href="#none">
+					<span class="career">채용정보</span>
+				</a>
+				<a href="#none">
+					<span class="customer">고객지원</span>
+				</a>
+			</div>
+			<button type="button" class="close-btn"></button>
+		</div>
+		<div class="sec2">
+			<div class="item">
+				<span>회사소개</span>
+				<div class="sub-menu">
+					<a href="#none">조합현황</a>
+					<a href="#none">조합정보</a>
+					<a href="#none">중앙연구소</a>
+					<a href="#none">오시는길</a>
+				</div>
+			</div>
+			<div class="item">
+				<span>제품소개</span>
+				<div class="sub-menu">
+					<a href="#none">우유</a>
+					<a href="#none">발효유</a>
+					<a href="#none">음료</a>
+					<a href="#none">커피</a>
+					<a href="#none">치즈</a>
+					<a href="#none">크림·버터</a>
+					<a href="#none">분유·연유</a>
+					<a href="#none">디저트</a>
+					<a href="#none">반려동물제품</a>
+					<a href="#none">수입제품</a>
+				</div>
+			</div>
+			<div class="item">
+				<span>지속가능경영</span>
+				<div class="sub-menu">
+					<a href="#none">안전 및 품질 경영</a>
+					<a href="#none">ESG 경영</a>
+				</div>
+			</div>
+			<div class="item">
+				<span>홍보</span>
+				<div class="sub-menu">
+					<a href="#none">인플루언서</a>
+					<a href="#none">광고자료</a>
+					<a href="#none">공식 SNS</a>
+					<a href="#none">공장견학</a>
+				</div>
+			</div>
+			<div class="item">
+				<span>이벤트</span>
+				<div class="sub-menu">
+					<a href="#none">진행 이벤트</a>
+					<a href="#none">당첨자 발표</a>
+				</div>
+			</div>
+		</div>
+		<div class="sec3">
+			<button type="button" class="active">KR</button>
+			<button type="button">EN</button>
+		</div>
+	</div>
+	<!-- 비주얼1 -->
+	<section class="visual1">
+		<video autoplay loop muted>
+			<source src="assets/img/ad_seoul_milk.mp4" type="video/mp4">
+		</video>
+	</section>
+	<!-- 비주얼2 -->
+	<section class="visual2">
+		<div class="container">
+			<div class="top-wrap">
+				<span class="main-tit">ABOUT</span>
+				<p class="txt1">맛있는 우유로</p>
+				<p class="txt1">세상을 건강하게</p>
+				<p class="txt2">
+					서울우유협동조합은 고객에게 사랑 받는 기업,<br/>
+					신뢰 받는 기업이 되겠습니다
+				</p>
+				<div class="about-menu">
+					<a href="#none" class="active">회사소개</a>
+					<a href="#none">중앙연구소</a>
+					<a href="#none">경영이념</a>
+					<a href="#none">히스토리</a>
+					<a href="#none">인재채용</a>
+				</div>
+			</div>
+			<!-- 회사소개 -->
+			<div class="bot-wrap bot1">
+				<span class="tit">회사소개</span>
+				<p class="txt">
+					사람·사회·지구를 건강하게 하기 위한 노력으로 고객에게 사랑받는
+					기업,<br />
+					고객과 함께하는 기업이 되겠습니다. 농업협동조합법에서는 농업인의
+					자주적인<br />
+					협동조직을 바탕으로 농업인의 경제·사회·문화적 지위를 향상시키고,
+					농업의<br />
+					경쟁력 강화를 통해 농업인의 삶의 질을 높이며, 국민경제의 균형 있는
+					발전에<br />
+					이바지함을 위해 조직한 단체로 정의하고 있습니다. 서울우유협동조합은
+					이 법에<br />
+					의해 낙농업을 경영하는 조합원에게 필요한 기술·자금·자재 및 정보 등을
+					제공하고,<br />
+					조합원이 생산한 축산물의 판로 확대 및 유통 원활화를 도모해
+					조합원의<br />
+					경제적·사회적·문화적 지위를 향상시키기 위해 노력하고 있습니다.
+				</p>
+				<span class="tit">주요사업</span>
+				<p class="txt">
+					가공사업, 낙농지원사업, 구매사업, 생명공학사업, 신용사업
+				</p>
+			</div>
+			<!-- 중앙연구소 -->
+			<div class="bot-wrap bot2">
+				<span class="tit">중앙연구소</span>
+				<p class="txt">
+					사람·사회·지구를 건강하게 하기 위한 노력으로 고객에게 사랑받는
+					기업,<br />
+					고객과 함께하는 기업이 되겠습니다. 서울우유 중앙연구소는 1989년
+					설립되어 <br />
+					국민 건강에 기여한다는 목표 아래 수많은 제품을 개발하고, 연구해 오고
+					있습니다.<br />
+					지하 1층 지상 4층 연면적 4550㎡ 규모의 종합 연구개발 기능을 갖는
+					중앙연구소<br />
+					를 준공하고, 화학분석실험실, 생물학실험실 등의 기초연구와 응용연구가
+					가능한<br />
+					최첨단 시설을 구축했습니다. 머물지 않고, 흐르는 물이 되기 위해
+					연구원들은<br />
+					새로움을 추구하기 위해 노력하겠습니다.
+				</p>
+				<span class="tit">연구팀</span>
+				<p class="txt">
+					유유연구팀, 발효유연구팀, 음료연구팀, 가공품연구팀,<br/>
+					신성장제품연구팀, 디저트개발팀, R&D지원팀, 응용연구팀
+				</p>
+			</div>
+			<!-- 경영이념 -->
+			<div class="bot-wrap bot3">
+				<span class="tit">경영이념</span>
+				<p class="txt">
+					사람·사회·지구를 건강하게 하기 위한 노력으로 고객에게 사랑받는<br/>
+					사람을 건강하게, 사회를 건강하게, 지구를 건강하게!<br />
+					고객건강과 만족을 넘어서 낙농발전과 동물복지,친환경 제품을 생산하여<br />
+					모두에게 사랑받는 기업, 신뢰받는 기업이 되도록 노력하겠습니다.
+				</p>
+				<span class="tit">행동지침</span>
+				<p class="txt">고객 지향, 제품 혁신, 원가 절감, 조직 문화</p>
+			</div>
+			<!-- 히스토리 -->
+			<div class="bot-wrap bot4">
+				<span class="tit">서울우유의 역사</span>
+				<ul>
+					<li>
+						<span>1937.04.13</span>
+						<span>청량리농유조합 조직</span>
+					</li>
+					<li>
+						<span>1937.07.11</span>
+						<span>경성우유동업조합 창립</span>
+					</li>
+					<li>
+						<span>1945.09.02</span>
+						<span>경성우유동업조합을 서울우유동업조합으로 개칭</span>
+					</li>
+					<li>
+						<span>1952.04.08</span>
+						<span>빙과사업 실시</span>
+					</li>
+					<li>
+						<span>1959.07.31</span>
+						<span>ICA 무상원조에 의한 살균조, 충병충진기 도입</span>
+					</li>
+					<li>
+						<span>1959.08.02</span>
+						<span>화물자동차에 의한 집유업무 개시</span>
+					</li>
+					<li>
+						<span>1961.12.29</span>
+						<span>서울우유동업조합 설립준비회 개최</span>
+					</li>
+					<li>
+						<span>1961.12.31</span>
+						<span>서울우유동업조합 해체</span>
+					</li>
+				</ul>
+			</div>
+			<!-- 인재채용 -->
+			<div class="bot-wrap bot5">
+				<span class="tit">인재상</span>
+				<p class="txt">
+					<span class="red">Creative</span>
+					<span>창의적 사고와 행동력으로 조직의 미래를 이끌어 갈 수 있는 인재</span>
+				</p>
+				<p class="txt">
+					<span class="red">Adaptable to Change</span>
+					<span>시시각각으로 급변하는 환경에 적응하고, 조직의 변화를 이끌어 갈 수 있는 인재</span>
+				</p>
+				<p class="txt">
+					<span class="red">Cooperative</span>
+					<span>나를 포함한 구성원들과 협력을 통해 조직의 시너지를 창출할 수 있는 인재</span>
+				</p>
+				<span class="tit">복리후생</span>
+				<p class="txt">교육지원, 경조지원, 복지지원, 휴가지원</p>
+			</div>			
+		</div>
+	</section>
+	<!-- 비주얼3 -->
+	<section class="visual3">
+		<div class="container">
+			<div class="top-wrap">
+				<span class="main-tit">PRODUCT</span>
+				<p class="txt1">우유에 진심을 담다.</p>
+				<p class="txt2">
+					생산부터 가공까지 신선하고<br/>
+					다양한 제품을 생산하고 있습니다.
+				</p>
+			</div>
+			<div class="bot-wrap"> 
+				<div class="productSwiper">
+					<div class="swiper-wrapper">
+						<a href="#none" class="swiper-slide slide1">
+							<div>
+								<span class="tit">우유</span>
+								<p>
+									체세포수 1등급,<br/>
+									세균수 1A등급<br/>
+									원유부터 다른 우유<br/>
+								</p>
+								<span class="more">제품보기</span>
+							</div>
+						</a>
+						<a href="#none" class="swiper-slide slide2">
+							<div>
+								<span class="tit">발효유</span>
+								<p>
+									편리하게 맛있게<br/>
+									하루 건강을 채우는<br/>
+									유산균 발효유<br/>
+								</p>
+								<span class="more">제품보기</span>
+							</div>
+						</a>
+						<a href="#none" class="swiper-slide slide3">
+							<div>
+								<span class="tit">음료</span>
+								<p>
+									맛과 영양의 1등급<br/>
+									노하우를 더한<br/>
+									음료 & 주스<br/>
+								</p>
+								<span class="more">제품보기</span>
+							</div>
+						</a>
+						<a href="#none" class="swiper-slide slide4">
+							<div>
+								<span class="tit">커피</span>
+								<p>
+									커피음료<br/>
+									트렌드를 이끄는<br/>
+									프리미엄 커피<br/>
+								</p>
+								<span class="more">제품보기</span>
+							</div>
+						</a>
+						<a href="#none" class="swiper-slide slide5">
+							<div>
+								<span class="tit">치즈</span>
+								<p>
+									서울우유와 함께하는<br/>
+									행복한 치즈 스마일!
+								</p>
+								<span class="more">제품보기</span>
+							</div>
+						</a>
+						<a href="#none" class="swiper-slide slide6">
+							<div>
+								<span class="tit">크림·버터</span>
+								<p>
+									자연의 건강과<br/>
+									신선함을 담은 버터
+								</p>
+								<span class="more">제품보기</span>
+							</div>
+						</a>
+						<a href="#none" class="swiper-slide slide7">
+							<div>
+								<span class="tit">디저트</span>
+								<p>
+									국산 100% 유원료로 만든<br/>
+									진한 풍미의 부드럽고<br/>
+									건강한 아이스크림<br/>
+								</p>
+								<span class="more">제품보기</span>
+							</div>
+						</a>
+						<a href="#none" class="swiper-slide slide8">
+							<div>
+								<span class="tit">반려동물제품</span>
+								<p>
+									반려동물의 특성 및 건강을 고려한<br/>
+									1급 1A 국산 원유 사용
+								</p>
+								<span class="more">제품보기</span>
+							</div>
+						</a>
+					</div>
+					<div class="swiper-button-prev"></div>
+					<div class="swiper-button-next"></div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!-- 비주얼4 -->
+	<section class="visual4">
+		<div class="container">
+			<div class="top-wrap">
+				<span class="main-tit">ESG</span>
+				<p class="txt1">고객에게 건강과 행복을</p>
+				<p class="txt1">드리는 서울우유</p>
+				<p class="txt2">
+					서울우유는 지속가능경영을 통해 기업과 사회가 공존하는<br/>
+					지속가능한 미래를 앞당기기 위해 노력하고 있습니다.
+				</p>
+			</div>
+			<div class="bot-wrap">
+				<a href="#none">
+					<p>
+						서울우유<br/>
+						친환경을 위한 투자
+					</p>
+					<span>더보기</span>
+				</a>
+				<a href="#none">
+					<p>
+						사회 가치 창출 및<br/>
+						동반성장을 위한 상생
+					</p>
+					<span>더보기</span>
+				</a>
+				<a href="#none">
+					<p>
+						체계적이고 투명한<br/>
+						서울우유 윤리 경영 시스템
+					</p>
+					<span>더보기</span>
+				</a>
+			</div>
+		</div>
+	</section>
+	<!-- 비주얼5 -->
+	<section class="visual5">
+		<div class="container">
+			<div class="top-wrap">
+				<span class="main-tit">NEWS</span>
+				<p class="txt1">서울우유 이야기</p>
+				<p class="txt2">
+					매일 새로운 소식을<br/>
+					빠르게 만나실 수 있습니다.
+				</p>
+			</div>
+			<div class="bot-wrap">
+				<a href="#none">
+					<img src="assets/img/news_img1.png" alt="프루티홈 출시 기념 이벤트">
+					<span class="tit">프루티홈 출시 기념 이벤트</span>
+					<span class="txt">이벤트 기간: 2024.08.07 ~ 2024.08.31</span>
+					<span class="txt">당첨자 발표: 2024.09.11</span>
+				</a>
+				<a href="#none">
+					<img src="assets/img/news_img2.png" alt="체다치즈 40주년 기념 이벤트">
+					<span class="tit">체다치즈 40주년 기념 이벤트</span>
+					<span class="txt">이벤트 기간: 2024.08.05 ~ 2024.08.25</span>
+					<span class="txt">당첨자 발표: 2024.09.05</span>
+				</a>
+				<a href="#none">
+					<img src="assets/img/news_img3.png" alt="블랙라벨 망고의 퍼스널 컬러는 #여름?">
+					<span class="tit">블랙라벨 망고의 퍼스널 컬러는 #여름?</span>
+					<span class="txt insta">#여름 #망고주스 # 아침에 주스 신메뉴</span>
+				</a>
+				<a href="#none">
+					<img src="assets/img/news_img4.png" alt="단짠단짠의 절묘한 조합! 체다치즈토스트">
+					<span class="tit">단짠단짠의 절묘한 조합! 체다치즈토스트</span>
+					<span class="txt insta">#단짠단짠 #체다치즈 요리 #토스트 토핑</span>
+				</a>
+				<a href="#none">
+					<img src="assets/img/news_img5.png" alt="커피타운 매 순간 특별한 휴식! DEEP Brown
+					Mocha & White Vanilla 출시!">
+					<span class="tit">커피타운 매 순간 특별한 휴식! DEEP Brown<br/>
+						Mocha & White Vanilla 출시!</span>
+					<span class="txt insta">#커피타운 #커피타운 신메뉴 #모카커피 #화이트바닐라</span>
+				</a>
+				<a href="#none">
+					<img src="assets/img/news_img6.png" alt="우유의 지방을 제거하여 깔끔하고 건강한 맛!
+					서울우유 무지방 우유 출시!">
+					<span class="tit">우유의 지방을 제거하여 깔끔하고 건강한 맛!<br/>
+						서울우유 무지방 우유 출시!</span>
+					<span class="txt insta">#서울우유 #무지방우유 #서울우유 신제품</span>
+				</a>
+			</div>
+		</div>
+        <div></div>
+		<div class="circle1"></div>
+		<div class="circle2"></div>
+		<div class="circle3"></div>
+	</section>
+	<footer class="footer">
+		<div class="container">
+			<div class="footer-top">
+				<div class="nav">
+                    <div>
+                        <a href="#none" class="red">개인정보처리방침</a>
+                        <a href="#none">이용약관</a>
+                        <a href="#none">이메일무단수집거부</a>
+                    </div>
+                    <div>
+                        <a href="#none">공정거래 자율준수 프로그램</a>
+                        <a href="#none">신용정보활용체제</a>
+                        <a href="#none">금융소비자보호</a>
+                    </div>
+				</div>
+				<button class="sns-btn">
+					<span>Brand SNS</span>
+                    <!-- sns-btn 클릭시 메뉴 -->
+					<div class="sns-wrap">
+						<a href="#none">아이펫밀크 인스타그램</a>
+						<a href="#none">아침에주스 인스타그램</a>
+						<a href="#none">커피연구소 인스타그램</a>
+						<a href="#none">치즈 페이스북</a>
+						<a href="#none">치즈 블로그</a>
+						<a href="#none">치즈 인스타그램</a>
+						<a href="#none">밀크홀 1937 인스타그램</a>
+					</div>
+				</button>
+			</div>
+			<div class="footer-mid">
+				<div class="box-txt">
+					서울우유협동조합은<img src="assets/img/footer_nh_logo.png" alt="농협">중앙회 회원조합입니다.
+				</div>
+				<span>고객상담 080-021-5656</span>
+			</div>
+			<div class="footer-bot">
+				<address>
+					<div class="address">
+						<span class="ml0">상호 : 서울우유협동조합</span>
+						<span>조합장 : 문진섭</span>
+						<span class="pr0">사업자번호 : 216-82-00028</span>
+					</div>
+					<div class="address">
+						<span class="ml0">서울특별시 중랑구 중랑천로 71</span>
+						<span class="pr0">통신판매업 : 신고번호 중랑 제 2007-0086호</span>
+					</div>
+					<span class="ml0 pr0">Copyright © 2023 Seoulmilk. All Rights Reserved.</span>
+				</address>
+				<button class="family-btn">
+					<span>Family Site</span>
+                    <!-- family-btn 클릭시 메뉴 -->
+					<div class="family-wrap">
+						<a href="#none">서울우유 쇼핑몰(나100샵)</a>
+						<a href="#none">서울우유가정배달서비스</a>
+						<a href="#none">치즈 브랜드 사이트</a>
+						<a href="#none">서울우유 공장견학</a>
+					</div>
+				</button>
+			</div>
+		</div>
+	</footer>
+	<div class="top-btn">
+		<button type="button">TOP</button>
+	</div>
+</body>
+</html> 

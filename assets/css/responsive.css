@@ -1,0 +1,422 @@
+@charset "utf-8";
+
+/* 화면 0 ~ 1786px */
+@media screen and (max-width:1786px) {
+  .top-menu .container {
+    padding: 0 18px;
+  }  
+  
+  .header .container {
+    padding: 0 18px;
+  }
+
+  .menu-bar-page .container {
+    padding: 0 18px;
+  }
+
+  .footer .container {
+    padding: 40px 18px 120px;
+  }
+}
+
+/* 화면 0 ~ 1780px */
+@media screen and (max-width:1786px) {
+  .visual3 .container {
+    padding: 0 18px;
+  }
+
+
+  .visual4 .container .bot-wrap {
+    gap: 80px;
+  }
+
+  .visual4 .container .bot-wrap a {
+    width: 420px;
+    height: 420px;
+  }
+
+  .visual4 .container .bot-wrap a p {
+    font-size: 36px;
+    line-height: 52px;
+  }
+
+  .visual4 .container .bot-wrap a span {
+    font-size: 22px;
+    line-height: 34px;
+  }
+
+}
+
+/* 화면 0 ~ 1620px */
+@media screen and (max-width:1620px) {
+  .visual5 .circle1 {
+    display: none;
+  }
+}
+
+/* 화면 0 ~ 1540px */
+@media screen and (max-width:1540px) {
+  .visual3 .container .bot-wrap .productSwiper {
+    max-width: 1200px;
+  }
+
+  .visual3 .container .bot-wrap .productSwiper .swiper-wrapper .swiper-slide {
+    width: 400px;
+    height: 400px;
+  }
+}
+
+/* 화면 0 ~ 1480px */
+@media screen and (max-width:1480px) {
+  .visual4 .container .bot-wrap a {
+    width: 360px;
+    height: 360px;
+  }
+
+  .visual4 .container .bot-wrap {
+    gap: 60px;
+  }
+
+  .visual4 .container .bot-wrap a p {
+    font-size: 30px;
+    line-height: 43px;
+  }
+
+  .visual4 .container .bot-wrap a span {
+    font-size: 20px;
+    line-height: 36px;
+  }
+}
+
+/* 화면 0 ~ 1400px */
+@media screen and (max-width:1400px) {
+  .header .container .nav > li > a {
+    font-size: 18px;
+  }
+
+  .header .container .nav > li {
+    padding: 0 20px;
+  }
+
+  .header .container .nav .company .sub-menu {
+    width: 106.25px;
+  }
+  
+  .header .container .nav .product .sub-menu {
+    width: 106.25px;
+  }
+  
+  .header .container .nav .management .sub-menu {
+    width: 139.38px;
+  }
+  
+  .header .container .nav .promotion .sub-menu {
+    width: 73.13px;
+  }
+  
+  .header .container .nav .event .sub-menu {
+    width: 89.69px;
+  } 
+
+  .header .container .nav .sub-menu > li a {
+    font-size: 14px;
+  }
+
+  .visual1 {
+    height: auto;
+  }
+
+}
+
+/* 화면 0 ~ 1300px */
+@media screen and (max-width:1300px) {
+  .visual3 .container .bot-wrap .productSwiper {
+    max-width: 800px;
+  }
+
+  .visual3 .container .bot-wrap .productSwiper .swiper-wrapper .swiper-slide {
+    width: 380px;
+    height: 380px;
+    transform: scale(1);
+  }
+}
+
+/* 화면 0 ~ 1220px */
+@media screen and (max-width:1220px) {
+  .visual4 .container .bot-wrap {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .visual4 .container .bot-wrap a {
+    width: 520px;
+    height: 520px;
+  }
+
+  .visual4 .container .bot-wrap a p {
+    font-size: 46px;
+    line-height: 67px;
+  }
+
+  .visual4 .container .bot-wrap a span {
+    font-size: 26px;
+  }
+}
+
+/* 화면 0 ~ 1196px */
+@media screen and (max-width:1196px) {
+  .visual5 .container .bot-wrap a:nth-of-type(2), 
+  .visual5 .container .bot-wrap a:nth-of-type(5) {
+    margin-top: 0;
+  }
+}
+
+/* 화면 0 ~ 1084px */
+@media screen and (max-width:1084px) {
+  .footer .container .footer-top .nav a {
+    font-size: 13px;
+  }
+
+  .footer .container .footer-top button span {
+    font-size: 18px;
+    padding-right: 70px;
+  }
+  .footer .container .footer-top button .sns-wrap a {
+    font-size: 13px;
+  }
+
+  .footer .container .footer-mid .box-txt {
+    font-size: 13px;
+  }
+
+  .footer .container .footer-mid span {
+    font-size: 22px;
+  }
+
+  .footer .container .footer-bot address span {
+    font-size: 12px;
+  }
+
+  .footer .container .footer-bot .family-btn span {
+    font-size: 14px;
+  }
+
+  .footer .container .footer-bot .family-btn .family-wrap a {
+    font-size: 13px;
+  }
+}
+
+
+/* 화면 0 ~ 1006px */
+@media screen and (max-width:1006px) {
+  .footer .container .footer-top {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 20px;
+  }
+}
+
+/* 화면 0 ~ 1000px */
+@media screen and (max-width:1000px) {
+  .visual3 .container .bot-wrap .productSwiper {
+    max-width: 380px;
+  }
+
+  .visual3 .container .bot-wrap .productSwiper .swiper-wrapper .swiper-slide {
+    width: 380px;
+    height: 380px;
+    transform: scale(1);
+  }
+}
+
+/* 화면 0 ~ 940px */
+@media screen and (max-width:940px) {
+  .header .container .nav {
+    display: none;
+  }
+}
+
+/* 화면 0 ~ 851px */
+@media screen and (max-width:851px) {
+  .footer .container .footer-top .nav div:nth-of-type(2) {
+    margin-top: 8px;
+  }
+}
+
+/* 화면 0 ~ 752px */
+@media screen and (max-width:752px) {
+  .visual2 .container .bot-wrap.bot4 {
+    flex-direction: column;
+  }
+}
+
+/* 화면 0 ~ 658px */
+@media screen and (max-width:658px) {
+  .footer .container .footer-mid {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 20px;
+  }
+
+  .footer .container .footer-bot {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 20px;
+  }
+}
+
+/* 화면 0 ~ 624px */
+@media screen and (max-width:624px) {
+  .container .top-wrap .main-tit {
+    font-size: 76px;
+  }
+
+  .container .top-wrap .txt1 {
+    font-size: 22px;
+  }
+
+  .container .top-wrap .txt2 {
+    font-size: 13px;
+  }
+
+  .visual2 .container .top-wrap .about-menu a {
+    font-size: 16px;
+    padding: 0 10px;
+  }
+
+  .visual2 .container .bot-wrap .tit {
+    font-size: 26px;
+    line-height: 38px;
+  }
+
+  .visual2 .container .bot-wrap .txt {
+    font-size: 16px;
+  }
+
+  .visual2 .container .bot-wrap.bot4 ul li span {
+    font-size: 16px;
+  }
+
+  .visual2 .container .bot-wrap.bot5 .txt .red {
+    font-size: 18px;
+  }
+}
+
+/* 화면 0 ~ 560px */
+@media screen and (max-width:560px) {
+  .visual3 .container .bot-wrap .productSwiper {
+    max-width: 320px;
+  }
+
+  .visual3 .container .bot-wrap .productSwiper .swiper-wrapper .swiper-slide {
+    width: 320px;
+    height: 320px;
+  }
+}
+
+/* 화면 0 ~ 556px */
+@media screen and (max-width:556px) {
+  .visual2 .container .bot-wrap .txt {
+    font-size: 14px;
+  }
+
+  .visual4 .container .bot-wrap a {
+    width: 420px;
+    height: 420px;
+  }
+
+  .visual4 .container .bot-wrap a p {
+    font-size: 36px;
+    line-height: 52px;
+  }
+
+  .visual4 .container .bot-wrap a span {
+    font-size: 22px;
+    line-height: 34px;
+  }
+}
+
+/* 화면 0 ~ 414px */
+@media screen and (max-width:414px) {
+  .visual2 .container .top-wrap .about-menu a {
+    font-size: 15px;
+  }
+
+  .visual2 .container .bot-wrap .tit {
+    font-size: 22px;
+  }
+  .visual2 .container .bot-wrap .txt {
+    font-size: 12px;
+  }
+
+  .visual2 .container .bot-wrap.bot4 ul li span {
+    font-size: 14px;
+  }
+
+  .visual3 .container .bot-wrap .productSwiper {
+    max-width: 250px;
+  }
+
+  .visual3 .container .bot-wrap .productSwiper .swiper-wrapper .swiper-slide {
+    width: 250px;
+    height: 250px;
+  }
+
+  .visual3 .container .bot-wrap .productSwiper .swiper-wrapper .swiper-slide div {
+    gap: 24px;
+  }
+
+  .visual3 .container .bot-wrap .productSwiper .swiper-wrapper .swiper-slide .tit {
+    font-size: 30px;
+  }
+
+  .visual3 .container .bot-wrap .productSwiper .swiper-wrapper .swiper-slide p {
+    font-size: 14px; 
+    line-height: 26px;
+  }
+
+  .visual3 .container .bot-wrap .productSwiper .swiper-wrapper .swiper-slide .more {
+    font-size: 12px;
+  }
+
+  .visual4 .container .bot-wrap a {
+    width: 360px;
+    height: 360px;
+  }
+
+  .visual4 .container .bot-wrap a p {
+    font-size: 30px;
+    line-height: 43px;
+  }
+
+  .visual4 .container .bot-wrap a span {
+    font-size: 20px;
+    line-height: 36px;
+  }
+
+  .footer .container .footer-top .nav div a {
+    font-size: 12px;
+    margin-right: 20px;
+    line-height: 17px;
+  }
+
+  .footer .container .footer-top button span {
+    font-size: 16px;
+  }
+
+  .footer .container .footer-top button .sns-wrap a {
+    font-size: 11px;
+  }
+
+  .footer .container .footer-mid span {
+    font-size: 20px;
+  }
+
+  .footer .container .footer-bot address span {
+    font-size: 11px;
+  }
+
+  .footer .container .footer-bot .family-btn .family-wrap a {
+    font-size: 11px;
+  }
+}
