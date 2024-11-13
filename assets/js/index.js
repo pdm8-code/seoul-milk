@@ -117,6 +117,13 @@ $(document).ready(function(){
     }
   });
 
+  $(window).resize(function(){
+    if($(this).width() > 958){
+      $('.site-map').removeClass('active');
+    }
+  });
+
+
     // 화면 크기 변경 시 nav 상태 유지
   $(window).on('resize', function() {
     if ($(window).width() > 940) {
