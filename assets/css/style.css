@@ -1,7 +1,5 @@
 @charset "utf-8";
 
-
-
 /* 컨테이너 */
 .container {
   max-width: 1760px;
@@ -240,7 +238,7 @@
   width: 340px;
   height: 100%;
   background: #fff;
-  z-index: 1000;
+  z-index: 1100;
   border-top-left-radius: 30px;
   transition: right 0.3s ease;
 }
@@ -425,6 +423,18 @@
 
 .site-map .sec3 button.active {
   color: #1F1F1F;
+}
+
+/* 사이트맵 백그라운드 */
+.background {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  z-index: 1000;
+  display: none;
 }
 
 /* 비주얼1 */

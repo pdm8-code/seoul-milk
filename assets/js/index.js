@@ -43,7 +43,6 @@ $(document).ready(function(){
     ];
     $('.visual2').css('background', bgImages[index]);
 
-  
   });
 
   //비주얼2 기본페이지 로드될때 화면
@@ -77,10 +76,6 @@ $(document).ready(function(){
     },
   });
 
-
-  
-
-
   // 푸터 브랜드 sns 클릭 이벤트
   $('.footer .container .footer-top .sns-btn .sns-wrap').hide();
   $('.footer .container .footer-top .sns-btn').on('click',function(){
@@ -106,23 +101,31 @@ $(document).ready(function(){
   $('.header .container .btn-menu .menu-bar').on('click',function(){
     $('.site-map').toggleClass('active');
     $('.header .container .nav').hide();
+    $('.background').show();
+    $('html,body').css({overflow:'hidden'});
   });
 
   $('.site-map .sec1 .close-btn').on('click',function(){
     $('.site-map').removeClass('active');
+    $('.background').hide();
+    $('html,body').css({overflow:'visible'});
 
     // 화면 너비가 940px 이하일 경우 nav를 보이지 않도록 유지
     if ($(window).width() > 940) {
       $('.header .container .nav').show();
     }
   });
+  //사이트맵 백그라운드 클릭 이벤트
+  $('.background').on('click',function(){
+    $('.site-map').removeClass('active');
+    $('.background').hide();
+    $('html,body').css({overflow:'visible'});
 
-  $(window).resize(function(){
-    if($(this).width() > 958){
-      $('.site-map').removeClass('active');
+    // 화면 너비가 940px 이하일 경우 nav를 보이지 않도록 유지
+    if ($(window).width() > 940) {
+      $('.header .container .nav').show();
     }
   });
-
 
     // 화면 크기 변경 시 nav 상태 유지
   $(window).on('resize', function() {
@@ -132,6 +135,12 @@ $(document).ready(function(){
     } else {
       // 화면이 940px 이하일 때는 nav를 숨김
       $('.header .container .nav').hide();
+    }
+    // 사이트맵 윈도우 리사이즈 이벤트
+    if($(this).width() > 958){
+      $('.site-map').removeClass('active');
+      $('.background').hide();
+      $('html,body').css({overflow:'visible'});
     }
   });
 
